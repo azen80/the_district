@@ -10,6 +10,9 @@
     border-radius:0 0 30px 30px;
 }
 
+body {
+    overflow-x: hidden;
+}
 
 
 
@@ -82,6 +85,30 @@ div > img {
     width:330px;
 }
 
+.zoom-image {
+    overflow: hidden; 
+    height:347px;
+    width:330px;
+    position: relative;
+
+}
+
+.zoom-image img{
+    position: relative;
+    overflow: hidden; 
+    height:347px;
+    width:330px;
+    object-fit: fill;
+}
+    
+
+.zoom-image img:hover {
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+    -webkit-transition:1s ease-in-out;transition:1s ease-in-out; 
+   
+}
+
+
 .row {
     margin-top:50px;
 }
@@ -106,7 +133,6 @@ h2 {
     justify-content: space-evenly;
     
 }
-
 
 
 .footer {
