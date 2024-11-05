@@ -84,7 +84,7 @@ div > img {
     width:330px;
 }
 
-.text-center {
+.cat{
     display: flex;
     height:500px;
     flex-direction: column;
@@ -94,7 +94,7 @@ div > img {
     overflow: hidden;
 }
 
-.text-center:hover img {
+.cat:hover img{
     transition: transform 1s ease;
     transform: scale(1.2);
 }
@@ -104,7 +104,6 @@ div > img {
     height:347px;
     width:330px;
     position: relative;
-    object-fit: ;
 }
 
 .zoom-image img{
@@ -113,8 +112,6 @@ div > img {
     height:347px;
     width:330px;
 }
-
-
 
 .row {
     margin-top:50px;
