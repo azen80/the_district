@@ -95,8 +95,7 @@ div > img {
 }
 
 .cat:hover img{
-    transition: transform 1s ease;
-    transform: scale(1.2);
+    transform: scale(1.15);
 }
 
 .zoom-image {
@@ -111,11 +110,10 @@ div > img {
     overflow: hidden; 
     height:347px;
     width:330px;
+    transition: 1s ease;
 }
 
-.row {
-    margin-top:50px;
-}
+
 
 
 .text-center > p {
@@ -125,7 +123,7 @@ div > img {
 
 
 h2 {
-    margin-top:150px;
+    margin-top:100px;
 }
 
 .phares {
@@ -182,4 +180,24 @@ h2 {
 
 .btn:hover {
     background-color: #660430;
+}
+
+.lien_cat {
+    text-decoration: none;
+    font-size: 30px;
+    color:inherit;
+}
+
+.titrecat {
+    margin-left: 200px;
+    text-shadow: #970747 1px 2px 3px;
+}
+
+.plats {
+    margin-left: 50px;
+}
+
+.rowplats {
+    display: flex;
+    justify-content: space-evenly;
 }
