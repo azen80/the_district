@@ -201,3 +201,13 @@ h2 {
     display: flex;
     justify-content: space-evenly;
 }
+
+.carousel-container {
+    overflow: hidden;
+    width: 100%;  
+  }
+
+  #carouselrow {
+    display: flex;
+    transition: transform 0.5s ease; 
+  }
