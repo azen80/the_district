@@ -212,8 +212,14 @@ h2 {
     transition: transform 0.5s ease; 
   }
 
+
+
   .card-text {
     font-family: Arial;
     font-weight: bold;
     padding-top: 30px;
   }
+
+#boissons, #desserts {
+    display:none;
+}
