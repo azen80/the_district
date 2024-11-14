@@ -223,3 +223,11 @@ h2 {
 #boissons, #desserts {
     display:none;
 }
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}

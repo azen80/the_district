@@ -20,6 +20,8 @@ document.getElementById('nextbtn').addEventListener('click', function() {
   }
     */
 
+
+  
   document.addEventListener('DOMContentLoaded', function() {
     const prevBtn = document.getElementById('prevbtn');
     const nextBtn = document.getElementById('nextbtn');
@@ -70,3 +72,39 @@ document.getElementById('nextbtn').addEventListener('click', function() {
     });
   });
   
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const prevBtn = document.getElementById('prevbtn');
+    const nextBtn = document.getElementById('nextbtn');
+
+    const allBurgers = document.querySelectorAll('.burger-card');
+    let currentIndex = 0;  
+ 
+    function updateBurgers() {
+        allBurgers.forEach((burger, index) => {
+            if (index >= currentIndex && index < currentIndex + 4) {
+                burger.classList.add('visible');
+                burger.classList.remove('hidden');
+            } else {
+                burger.classList.add('hidden');
+                burger.classList.remove('visible');
+            }
+        });
+    }
+
+    nextBtn.addEventListener('click', function() {
+        if (currentIndex + 4 < allBurgers.length) {
+            currentIndex += 4; 
+            updateBurgers();
+        }
+    });
+
+    prevBtn.addEventListener('click', function() {
+        if (currentIndex - 4 >= 0) {
+            currentIndex -= 4;
+            updateBurgers();
+        }
+    });
+
+    updateBurgers();
+});

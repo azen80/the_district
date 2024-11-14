@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The District</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="./assets/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Baloo+Paaji+2:wght@400..800&display=swap" rel="stylesheet">
+    <link href="./assets/style.css" rel="stylesheet">
 
   </head>
   <body>
@@ -34,7 +34,7 @@
       <h1 class="titrecat mb-5">Nos burgers</h1>
 
 <div class="rowplats">
-    <div class="card mb-3" style="max-width: 800px;">
+    <div class="card mb-3 burger-card visible" style="max-width: 800px;">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="./assets/images/burger_cat.jpg" class="img-fluid rounded-start" alt="...">
@@ -48,7 +48,7 @@
         </div>
       </div>
     </div>
-    <div class="card mb-3 " style="max-width: 800px;">
+    <div class="card mb-3 burger-card visible" style="max-width: 800px;">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="./assets/images/bbq-bacon-burger-recipe.jpeg" class="img-fluid rounded-start" style="height:332.47px;object-fit: cover; object-position: 65%;" alt="...">
@@ -65,7 +65,7 @@
   </div>
 
   <div class="rowplats">
-    <div class="card mb-3" style="max-width: 800px;">
+    <div class="card mb-3 burger-card visible" style="max-width: 800px;">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="./assets/images/burger tex-mex.jpg" class="img-fluid rounded-start" style="height:332.47px;object-fit: cover; object-position: 15%;" alt="...">
@@ -79,7 +79,7 @@
         </div>
       </div>
     </div>
-    <div class="card mb-3" style="max-width: 800px;">
+    <div class="card mb-3 burger-card visible" style="max-width: 800px;">
       <div class="row g-0">
         <div class="col-md-4" style="overflow: hidden;">
           <img src="./assets/images/burger-vegetarien-1-scaled-576x728-c.webp" class="img-fluid rounded-start" style="height:332.47px; object-fit: contain; object-position: 1000%; transform:scale(1.3)" alt="...">
@@ -94,11 +94,43 @@
       </div>
     </div>
   </div>
+
+
+  <div class="rowplats">
+    <div class="card mb-3 burger-card hidden" style="max-width: 800px;">
+      <div class="row g-0">
+        <div class="col-md-4" style="overflow: hidden;">
+          <img src="./assets/images/burger_poulet.jpg" class="img-fluid rounded-start" style="height:332.47px;object-fit: cover; object-position: 10% 200%; transform: scale(1.3);" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title display-6">Le Chicken</h5>
+            <p class="card-text">Un burger avec une grosse poitrine de poulet panée et dorée, servie avec une tranche de fromage fondu, de la laitue iceberg, des cornichons, des tomates fraîches et une sauce ranch ou barbecue.</p>
+            <p class="card-text">Prix : 11,50€</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3 burger-card hidden" style="max-width: 800px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="./assets/images/burger_truffe.jpg" class="img-fluid rounded-start" style="height:332.47px; object-fit: cover; object-position: 50%;" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title display-6">Le premium</h5>
+            <p class="card-text">Un burger haut de gamme avec un steak haché de bœuf de qualité, du fromage fondant, des éclats de truffe noire, des tomates fraîches, de la roquette fraîche et une sauce mayonnaise à la truffe. Le tout dans un pain brioché légèrement grillé.</p>
+            <p class="card-text">Prix : 16€</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
  
 
     <div class="boutonnav">
-      <button class="btn btn-primary fontbouton">PRECEDENT</button>
-      <button class="btn btn-primary fontbouton">SUIVANT</button>
+      <button class="btn btn-primary fontbouton"id="prevbtn">PRECEDENT</button>
+      <button class="btn btn-primary fontbouton"id="nextbtn" >SUIVANT</button>
     </div>
 
 
