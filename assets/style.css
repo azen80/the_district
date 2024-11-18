@@ -178,6 +178,12 @@ h2 {
     font-size: 20px;
 }
 
+#commander {
+    padding: 20px 40px;
+    font-family: "Baloo Paaji 2";
+}
+
+
 .btn:hover {
     background-color: #660430;
 }
