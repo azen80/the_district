@@ -55,7 +55,6 @@ body {
 }
 
 .bg {
-    margin:20px 0 100px 0;
     overflow: hidden;
     position:relative;
     display:flex;
@@ -63,10 +62,10 @@ body {
     justify-content:center;
 }
 
-.d-flex {
-   position:absolute;
-   width:400px;
-}
+
+
+
+
 
 .bg img {
     width:100%;
@@ -75,9 +74,7 @@ body {
     object-fit:cover;
 }
 
-.form-control {
-    font-family:'Courier New', Courier, monospace
-}
+
 
 div > img {
     height:347px;
@@ -237,3 +234,26 @@ h2 {
 .visible {
     display: block;
 }
+
+#vid {
+    width:1905px;
+    height:480px;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.video-container {
+    position: relative;
+    width: 1905px;
+    height: 480px; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-control {
+    font-family:'Courier New', Courier, monospace;
+    width:400px;
+}
+
