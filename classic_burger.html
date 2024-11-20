@@ -1,0 +1,95 @@
+<!Doctype html>
+<html lang="FR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The District</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Baloo+Paaji+2:wght@400..800&display=swap" rel="stylesheet">
+    <link href="./assets/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="couleurnav">
+        <nav class="navbar">
+            <ul>
+                <li><img src="./assets/images/logo_transparent.png" alt="logo" class="img-fluid"></li>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="categorie.html">Catégorie</a></li>
+                <li><a href="plat_categorie.html">Plats</a></li>
+                <li><a href="">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+    
+
+
+
+  <div class="comm mt-5">
+    <div class="card mb-3 mt-5 burger-card visible" style="max-width: 800px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="./assets/images/burger_cat.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title display-6">Le classique</h5>
+            <p class="card-text">Un incontournable qui ne déçoit jamais ! Un steak juteux, accompagné de laitue croquante, de tomates fraîches et d'une tranche de cheddar fondant, le tout dans un pain moelleux. Simple, savoureux et toujours délicieux.</p>
+            <p class="card-text">Prix : 10€</p>
+            <label for="quantité" class="position-absolute end-0 mb-5 me-5">Quantité :</label>
+            <input type="numbercomm" class="position-absolute end-0 me-2" style="width:30px" name="burgers" min="1"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex; justify-content:center">
+    <div class="container-form">
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label" style="font-family: 'Baloo Paaji 2'">Nom et prénom</label>
+          <input type="name" class="form-control" style="width:100%">
+          <div id="emailHelp" class="form-text" style="font-family: 'Baloo Paaji 2'">Ce champ est obligatoire.</div>
+        </div>
+        <div class="d-flex mb-3">
+          <div class="me-2">
+            <label for="mail" class="form-label" style="font-family: 'Baloo Paaji 2'">Email</label>
+            <input type="mail" class="form-control" style="width:350px">
+            <div id="mail" class="form-text" style="font-family: 'Baloo Paaji 2'">Ce champ est obligatoire.</div>
+          </div>
+          <div class="mb-3">
+            <label for="telephone" class="form-label" style="font-family: 'Baloo Paaji 2'">Téléphone</label>
+            <input type="telephone" class="form-control" style="width:350px">
+            <div id="telephone" class="form-text" style="font-family: 'Baloo Paaji 2'">Ce champ est obligatoire.</div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="name" class="form-label" style="font-family: 'Baloo Paaji 2'">Nom et prénom</label>
+          <input type="name" class="form-control" style="width:100%">
+          <div id="emailHelp" class="form-text" style="font-family: 'Baloo Paaji 2'">Ce champ est obligatoire.</div>
+        </div>
+        <button type="submit" class="btn btn-primary" style="font-family: 'Baloo Paaji 2'">Envoyer</button>
+      </form>
+    </div>
+  </div>
+
+
+
+    <div class="containerfooter">
+      <nav class="navbar footer">
+        <img src="./assets/images/devicon-plain--facebook.svg" alt="facebook">
+        <img src="./assets/images/entypo-social--instagram.svg" alt="instagram">
+        <img src="./assets/images/mingcute--twitter-fill.svg" alt="twitter">
+        <img src="./assets/images/mdi--youtube.svg" alt="youtube">
+      </nav>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>

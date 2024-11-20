@@ -257,3 +257,33 @@ h2 {
     width:400px;
 }
 
+.comm {
+    justify-content: center;
+    display: flex;
+}
+
+input[type="numbercomm"]::-webkit-outer-spin-button,
+input[type="numbercomm"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+input[type="numbercomm"] {
+    -moz-appearance: textfield;
+    text-align: center;
+    font-family: 'Baloo Paaji 2';
+}
+
+label[for="quantité"] {
+    font-family: 'Baloo Paaji 2';
+    font-size: larger;
+}
+
+.container-form {
+    margin-top:100px;
+    width:85%;
+    height:800px;
+    display: flex;
+    justify-content: center;
+}
