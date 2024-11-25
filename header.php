@@ -16,7 +16,7 @@
     <div class="couleurnav">
         <nav class="navbar">
             <ul>
-                <li><img src="./assets/images/logo_transparent.png" alt="logo" class="img-fluid"></li>
+                <li><img src="./assets/images/logo_transparent.png" alt="logo" class="img-fluid logo"></li>
                 <li><a href="accueil.php">Accueil</a></li>
                 <li><a href="categorie.php">Catégorie</a></li>
                 <li><a href="plat_categorie.php">Plats</a></li>

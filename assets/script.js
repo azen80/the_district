@@ -1,27 +1,4 @@
-/*
-document.getElementById('nextbtn').addEventListener('click', function() {
-    moveCarousel('next');
-  });
-  
-  document.getElementById('prevbtn').addEventListener('click', function() {
-    moveCarousel('prev');
-  });
-  
-  function moveCarousel(direction) {
-    const row = document.getElementById('carouselrow');
-    const itemWidth = row.children[0].offsetWidth;  
-    const currentTransform = parseInt(window.getComputedStyle(row).transform.split(',')[4]) || 0; 
-    
-    if (direction === 'next') {
-      row.style.transform = `translateX(${currentTransform - itemWidth}px)`;
-    } else if (direction === 'prev') {
-      row.style.transform = `translateX(${currentTransform + itemWidth}px)`;
-    }
-  }
-    */
-
-
-  
+// Boutons catégories
   document.addEventListener('DOMContentLoaded', function() {
     const prevBtn = document.getElementById('prevbtn');
     const nextBtn = document.getElementById('nextbtn');
@@ -73,6 +50,7 @@ document.getElementById('nextbtn').addEventListener('click', function() {
   });
   
 
+  //Boutons burgers
   document.addEventListener('DOMContentLoaded', function() {
     const prevBtn = document.getElementById('prevbtn');
     const nextBtn = document.getElementById('nextbtn');
@@ -113,11 +91,11 @@ document.getElementById('nextbtn').addEventListener('click', function() {
 
 
 
-
+//Formulaire
 function validateForm(event) {
-  event.preventDefault();  // Empêcher l'envoi du formulaire
+  event.preventDefault(); 
 
-  // Réinitialiser les erreurs
+
   document.getElementById("nameError").style.display = "none";
   document.getElementById("emailError").style.display = "none";
   document.getElementById("telephoneError").style.display = "none";
@@ -125,44 +103,42 @@ function validateForm(event) {
 
   let valid = true;
 
-  // Vérification du champ "Nom et prénom"
+
   const name = document.getElementById("name").value;
   if (!name) {
       document.getElementById("nameError").style.display = "block";
       valid = false;
   }
 
-  // Vérification du champ "Email"
+
   const email = document.getElementById("email").value;
   if (!email) {
       document.getElementById("emailError").style.display = "block";
       valid = false;
   }
 
-  // Vérification du champ "Téléphone"
+
   const telephone = document.getElementById("telephone").value;
   if (!telephone) {
       document.getElementById("telephoneError").style.display = "block";
       valid = false;
   }
 
-  // Vérification du champ "Adresse"
   const address = document.getElementById("address").value;
   if (!address) {
       document.getElementById("addressError").style.display = "block";
       valid = false;
   }
 
-  // Si tout est valide, soumettre le formulaire
+
   if (!valid) {
     alert("Certains champs n'ont pas été remplis.");
   }
 
   if (valid) {
       alert("Formulaire soumis avec succès !");
-      // Ici, vous pouvez soumettre le formulaire avec `event.target.submit()` si nécessaire
   }
 }
 
-// Attacher la fonction de validation au formulaire
+
 document.getElementById("orderForm").addEventListener("submit", validateForm);
