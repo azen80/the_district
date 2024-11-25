@@ -1,30 +1,4 @@
-<!Doctype html>
-<html lang="FR">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>The District</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Baloo+Paaji+2:wght@400..800&display=swap" rel="stylesheet">
-    <link href="./assets/style.css" rel="stylesheet">
-
-  </head>
-  <body>
-
-    <div class="couleurnav">
-        <nav class="navbar">
-            <ul>
-                <li><img src="./assets/images/logo_transparent.png" alt="logo" class="img-fluid"></li>
-                <li><a href="accueil.html">Accueil</a></li>
-                <li><a href="categorie.html">Catégorie</a></li>
-                <li><a href="plat_categorie.html">Plats</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                
-            </ul>
-        </nav>
-    </div>
+<?php include('header.php'); ?>
     
     <div class="bg mt-5">
         <img src="./assets/images/bg1.jpeg" alt="image_fond">
@@ -44,7 +18,7 @@
             <h5 class="card-title display-6">Le classique</h5>
             <p class="card-text">Un incontournable qui ne déçoit jamais ! Un steak juteux, accompagné de laitue croquante, de tomates fraîches et d'une tranche de cheddar fondant, le tout dans un pain moelleux. Simple, savoureux et toujours délicieux.</p>
             <p class="card-text">Prix : 10€</p>
-            <a href="classic_burger.html"><button class = "btn btn-primary btn-xs position-absolute bottom-0 end-0 mb-3 me-3" id="commander">Commander</button></a>
+            <a href="classic_burger.php"><button class = "btn btn-primary btn-xs position-absolute bottom-0 end-0 mb-3 me-3" id="commander">Commander</button></a>
           </div>
         </div>
       </div>
@@ -140,16 +114,4 @@
     </div>
 
 
-    <div class="containerfooter">
-      <nav class="navbar footer">
-        <img src="./assets/images/devicon-plain--facebook.svg" alt="facebook">
-        <img src="./assets/images/entypo-social--instagram.svg" alt="instagram">
-        <img src="./assets/images/mingcute--twitter-fill.svg" alt="twitter">
-        <img src="./assets/images/mdi--youtube.svg" alt="youtube">
-      </nav>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="./assets/script.js"></script>
-  </body>
-</html>
+    <?php include('footer.php'); ?>

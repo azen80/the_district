@@ -1,30 +1,4 @@
-<!Doctype html>
-<html lang="FR">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>The District</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Baloo+Paaji+2:wght@400..800&display=swap" rel="stylesheet">
-    <link href="./assets/style.css" rel="stylesheet">
-
-  </head>
-  <body>
-
-    <div class="couleurnav">
-        <nav class="navbar">
-            <ul>
-                <li><img src="./assets/images/logo_transparent.png" alt="logo" class="img-fluid"></li>
-                <li><a href="accueil.html">Accueil</a></li>
-                <li><a href="categorie.html">Catégorie</a></li>
-                <li><a href="plat_categorie.html">Plats</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                
-            </ul>
-        </nav>
-    </div>
+<?php include('header.php'); ?>
     
 
 
@@ -47,7 +21,7 @@
       </div>
       <div class="cat col-4 p-5 text-center">
         <a href="cat_burger.html" class="lien_cat"><p>Nos Burgers</p></a>
-        <div class=" zoom-image mx-auto"><a href="cat_burger.html"><img src="./assets/images/burger_cat.jpg" alt="burger"></a></div>
+        <div class=" zoom-image mx-auto"><a href="cat_burger.php"><img src="./assets/images/burger_cat.jpg" alt="burger"></a></div>
       </div>
       <div class="cat col-4 p-5 text-center">
         <p>Nos Pates</p>
@@ -86,18 +60,5 @@
 
 
 
+<?php include('footer.php'); ?>
     
-
-    <div class="containerfooter">
-      <nav class="navbar footer" >
-        <img src="./assets/images/devicon-plain--facebook.svg" alt="facebook">
-        <img src="./assets/images/entypo-social--instagram.svg" alt="instagram">
-        <img src="./assets/images/mingcute--twitter-fill.svg" alt="twitter">
-        <img src="./assets/images/mdi--youtube.svg" alt="youtube">
-      </nav>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="./assets/script.js"></script>
-  </body>
-</html>
