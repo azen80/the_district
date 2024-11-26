@@ -104,7 +104,7 @@ function validateForm(event) {
   let valid = true;
 
 
-  const name = document.getElementById("name").value;
+  const name = document.getElementById("nameInput").value;
   if (!name) {
       document.getElementById("nameError").style.display = "block";
       valid = false;

@@ -175,7 +175,7 @@ h2 {
     font-size: 20px;
 }
 
-#commander {
+.commander {
     padding: 20px 40px;
     font-family: "Baloo Paaji 2";
 }
@@ -262,15 +262,14 @@ h2 {
     display: flex;
 }
 
-input[type="numbercomm"]::-webkit-outer-spin-button,
-input[type="numbercomm"]::-webkit-inner-spin-button {
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
 
 
-input[type="numbercomm"] {
-    -moz-appearance: textfield;
+input[type="number"] {
     text-align: center;
     font-family: 'Baloo Paaji 2';
 }

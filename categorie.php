@@ -12,7 +12,7 @@
         <div class="zoom-image mx-auto"><img src="./assets/images/asian_food_cat.jpg" alt="sushi"></div>
       </div>
       <div class="cat col-4 p-5 text-center">
-        <a href="cat_burger.html" class="lien_cat"><p>Nos Burgers</p></a>
+        <a href="cat_burger.php" class="lien_cat"><p>Nos Burgers</p></a>
         <div class=" zoom-image mx-auto"><a href="cat_burger.php"><img src="./assets/images/burger_cat.jpg" alt="burger"></a></div>
       </div>
       <div class="cat col-4 p-5 text-center">
