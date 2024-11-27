@@ -91,44 +91,46 @@
 
 
 
-//Formulaire
-function validateForm(event) {
+//Formulaire commande
+function validateFormCommande(event) {
   event.preventDefault(); 
 
 
-  document.getElementById("nameError").style.display = "none";
-  document.getElementById("emailError").style.display = "none";
-  document.getElementById("telephoneError").style.display = "none";
-  document.getElementById("addressError").style.display = "none";
-
+  document.getElementById("nameErrorCommande").style.display = "none";
+  document.getElementById("emailErrorCommande").style.display = "none";
+  document.getElementById("telephoneErrorCommande").style.display = "none"; 
+  document.getElementById("addressErrorCommande").style.display = "none";
+  
   let valid = true;
 
 
-  const name = document.getElementById("nameInput").value;
+  const name = document.getElementById("nameInputCommande").value;
   if (!name) {
-      document.getElementById("nameError").style.display = "block";
+      document.getElementById("nameErrorCommande").style.display = "block";
       valid = false;
   }
 
 
-  const email = document.getElementById("email").value;
+  const email = document.getElementById("emailInputCommande").value;
   if (!email) {
-      document.getElementById("emailError").style.display = "block";
+      document.getElementById("emailErrorCommande").style.display = "block";
       valid = false;
   }
 
 
-  const telephone = document.getElementById("telephone").value;
+  const telephone = document.getElementById("telephoneCommande").value;
   if (!telephone) {
-      document.getElementById("telephoneError").style.display = "block";
+      document.getElementById("telephoneErrorCommande").style.display = "block";
       valid = false;
   }
 
-  const address = document.getElementById("address").value;
+  const address = document.getElementById("addressCommande").value;
   if (!address) {
-      document.getElementById("addressError").style.display = "block";
+      document.getElementById("addressErrorCommande").style.display = "block";
       valid = false;
   }
+
+
 
 
   if (!valid) {
@@ -141,4 +143,64 @@ function validateForm(event) {
 }
 
 
-document.getElementById("orderForm").addEventListener("submit", validateForm);
+document.getElementById("orderForm").addEventListener("submit", validateFormCommande); 
+
+
+
+
+
+//Formulaire contact
+function validateFormContact(event) {
+  event.preventDefault(); 
+
+
+  document.getElementById("nameErrorContact").style.display = "none";
+  document.getElementById("emailErrorContact").style.display = "none";
+  document.getElementById("telephoneErrorContact").style.display = "none";
+  document.getElementById("demandErrorContact").style.display = "none";
+  
+  let valid = true;
+
+
+  const name = document.getElementById("nameInputContact").value;
+  if (!name) {
+      document.getElementById("nameErrorContact").style.display = "block";
+      valid = false;
+  }
+
+
+  const email = document.getElementById("emailInputContact").value;
+  if (!email) {
+      document.getElementById("emailErrorContact").style.display = "block";
+      valid = false;
+  }
+
+
+  const telephone = document.getElementById("telephoneContact").value;
+  if (!telephone) {
+      document.getElementById("telephoneErrorContact").style.display = "block";
+      valid = false;
+  }
+
+  const demand = document.getElementById("demandContact").value;
+  if (!demand) {
+      document.getElementById("demandErrorContact").style.display = "block";
+      valid = false;
+  }
+
+
+
+
+  if (!valid) {
+    alert("Certains champs n'ont pas été remplis.");
+  }
+
+  if (valid) {
+      alert("Formulaire soumis avec succès !");
+  }
+}
+
+
+document.getElementById("orderFormContact").addEventListener("submit", validateFormContact); 
+
+

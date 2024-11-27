@@ -239,7 +239,7 @@ h2 {
     width:1905px;
     height:480px;
     object-fit: cover;
-    position: absolute;
+    position: fixed;
     z-index: -1;
 }
 
@@ -250,6 +250,7 @@ h2 {
     display:flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
   }
 
   .form-control {

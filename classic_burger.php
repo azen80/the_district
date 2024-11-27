@@ -26,26 +26,26 @@
     <div class="container-form">
       <form id="orderForm">
         <div class="mb-3">
-          <label for="nameInput" class="form-label" style="font-family: 'Baloo Paaji 2'">Nom et prénom</label>
-          <input type="text" id="nameInput" class="form-control" style="width:100%">
-          <div id="nameError" class="form-text error" style="font-family: 'Baloo Paaji 2'; color:red">Ce champ est obligatoire.</div>
+          <label for="nameInputCommande" class="form-label" style="font-family: 'Baloo Paaji 2'">Nom et prénom</label>
+          <input type="text" id="nameInputCommande" class="form-control" style="width:100%">
+          <div id="nameErrorCommande" class="form-text error" style="font-family: 'Baloo Paaji 2'; color:red">Ce champ est obligatoire.</div>
         </div>
         <div class="d-flex mb-3">
           <div class="me-2">
             <label for="email" class="form-label" style="font-family: 'Baloo Paaji 2'">Email</label>
-            <input type="email" id="email" class="form-control" style="width:350px">
-            <div id="emailError" class="form-text error" style="font-family: 'Baloo Paaji 2'; color:red">Ce champ est obligatoire.</div>
+            <input type="email" id="emailInputCommande" class="form-control" style="width:350px">
+            <div id="emailErrorCommande" class="form-text error" style="font-family: 'Baloo Paaji 2'; color:red">Ce champ est obligatoire.</div>
           </div>
           <div class="mb-3">
             <label for="telephone" class="form-label" style="font-family: 'Baloo Paaji 2'">Téléphone</label>
-            <input type="tel" id="telephone" class="form-control" style="width:350px" pattern="[0-9]{10}">
-            <div id="telephoneError" class="form-text error" style="font-family: 'Baloo Paaji 2'; color:red">Ce champ est obligatoire.</div>
+            <input type="tel" id="telephoneCommande" class="form-control" style="width:350px" pattern="[0-9]{10}">
+            <div id="telephoneErrorCommande" class="form-text error" style="font-family: 'Baloo Paaji 2'; color:red">Ce champ est obligatoire.</div>
           </div>
         </div>
         <div class="mb-3">
           <label for="address" class="form-label" style="font-family: 'Baloo Paaji 2'">Votre adresse</label>
-          <textarea id="address" class="form-control" style="width:100%; height:100px"></textarea>
-          <div id="addressError" class="form-text error" style="font-family: 'Baloo Paaji 2'; color:red">Ce champ est obligatoire.</div>
+          <textarea id="addressCommande" class="form-control" style="width:100%; height:100px"></textarea>
+          <div id="addressErrorCommande" class="form-text error" style="font-family: 'Baloo Paaji 2'; color:red">Ce champ est obligatoire.</div>
         </div>
         <button type="submit" class="btn btn-primary ms-auto" style="font-family: 'Baloo Paaji 2'; display:block;">Envoyer</button>
       </form>
