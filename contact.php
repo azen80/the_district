@@ -2,7 +2,7 @@
     
 
     <div class="bg mt-5">
-      <img src="./assets/images/bg2.jpeg" alt="image_fond">
+      <img src="./assets/images/ibg.jpg" alt="image_fond">
   </div>
 
 
