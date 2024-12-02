@@ -1,5 +1,5 @@
-<div class="containerfooter">
-      <nav class="navbar footer" >
+    <div class="containerfooter">
+      <nav class="navbar footer d-none d-sm-flex">
         <img src="./assets/images/devicon-plain--facebook.svg" alt="facebook">
         <img src="./assets/images/entypo-social--instagram.svg" alt="instagram">
         <img src="./assets/images/mingcute--twitter-fill.svg" alt="twitter">

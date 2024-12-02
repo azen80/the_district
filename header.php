@@ -12,8 +12,32 @@
 
   </head>
   <body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="./assets/images/logo_transparent.png" alt="logo" class="img-fluid logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+        <a href="accueil.php">Accueil</a>
+        </li>
+        <li class="nav-item">
+        <a href="categorie.php">Catégorie</a>
+        </li>
+        <li class="nav-item">
+        <a href="plat_categorie.php">Plats</a>
+        </li>
+        <li class="nav-item">
+        <a href="contact.php">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <div class="couleurnav">
+    <!-- <div class="couleurnav">
         <nav class="navbar">
             <ul>
                 <li><img src="./assets/images/logo_transparent.png" alt="logo" class="img-fluid logo"></li>
@@ -24,4 +48,4 @@
                 
             </ul>
         </nav>
-    </div>
+    </div> -->

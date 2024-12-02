@@ -16,33 +16,32 @@ body {
 
 
 .navbar {
-    
     display:flex;
     align-items:center;
     height:60px;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    background-color: #970747 !important;
 }
 .navbar ul {
     list-style-type:none;
-    
     padding:0px;
     margin:0px;
 }
 
 .navbar a {
     color: white;
-    
-    padding: 5px 10px 5px 10px;
+    padding: 5px 10px;
     margin: 0px 100px 0px 100px;
     display : block;
-    font-size: 24px;
-    
+    font-size: 18px;
+    text-align: center;
 }
 
 .couleurnav img {
     max-height: 80px; 
-    margin: 0px 60px 50px 0px; 
-    object-position: 0px -20px;
+    margin: 0; 
+    object-position: center;
 }
 
 .navbar a:hover{
@@ -104,9 +103,9 @@ div > img {
 
 .zoom-image img{
     position: relative;
-    overflow: hidden; 
-    height:347px;
-    width:330px;
+    
+    height:auto;
+    width:100%;
     transition: 1s ease;
 }
 
@@ -124,8 +123,8 @@ h2 {
 }
 
 .phares {
-    height:304px;
-    width:600px;
+    height:auto;
+    max-width: 100%;
     margin-bottom:200px;
 }
 
@@ -137,7 +136,8 @@ h2 {
 
 
 .footer {
-    width:700px;
+    width:100%;
+    max-width: 700px;
     background-color: #970747;
     border-radius:30px 30px 0 0;
     justify-content: space-around;
@@ -236,7 +236,7 @@ h2 {
 }
 
 #vid {
-    width:1905px;
+    width:100%;
     height:480px;
     object-fit: cover;
     position: fixed;
@@ -245,7 +245,7 @@ h2 {
 
 .video-container {
     position: relative;
-    width: 1905px;
+    width: 100%;
     height: 480px; 
     display:flex;
     justify-content: center;
@@ -281,10 +281,16 @@ label[for="quantité"] {
 }
 
 .container-form {
-    margin-top:100px;
-    width:85%;
-    height:800px;
+
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
+@media (max-width: 768px) {
+    .form-control {
+        font-size: 14px;   /* Réduire la taille de la police sur mobile */
+        width: 200px;      /* Réduire la largeur de l'input */
+        padding: 6px;      /* Ajuster le padding pour les petits écrans */
+    }
+}
