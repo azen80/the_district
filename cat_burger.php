@@ -8,7 +8,7 @@
       <h1 class="titrecat mb-5 mt-5">Nos burgers</h1>
 
   <div class="rowplats">
-    <div class="card mb-3 mt-5 burger-card visible" style="max-width: 800px;">
+    <div class="card mb-3 mt-5 burger-card visible " style="max-width: 800px;">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="./assets/images/burger_cat.jpg" class="img-fluid rounded-start" alt="...">
