@@ -39,7 +39,7 @@
           <textarea id="demandContact" class="form-control" style="width:100%; height:100px"></textarea>
           <div id="demandErrorContact" class="form-text error" style="font-family: 'Baloo Paaji 2'; color:red">Ce champ est obligatoire.</div>
         </div>
-        <button type="submit" class="btn btn-primary ms-auto" style="font-family: 'Baloo Paaji 2'; display:block;">Envoyer</button>
+        <button type="submit" class="btn btn-primary ms-auto mt-5 mb-5" style="font-family: 'Baloo Paaji 2'; display:block;">Envoyer</button>
       </form>
     </div>
   </div>

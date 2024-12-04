@@ -7,13 +7,13 @@
 
       <h1 class="titrecat mb-5 mt-5">Nos burgers</h1>
 
-  <div class="rowplats">
+  <div class="rowplats d-block d-md-flex">
     <div class="card mb-3 mt-5 burger-card visible " style="max-width: 800px;">
       <div class="row g-0">
-        <div class="col-md-4">
-          <img src="./assets/images/burger_cat.jpg" class="img-fluid rounded-start" alt="...">
+        <div class="col-12 col-md-4">
+          <img src="./assets/images/burger_cat.jpg" class="img-fluid rounded-start" style="width:100%" alt="...">
         </div>
-        <div class="col-md-8">
+        <div class="col-12 col-md-8">
           <div class="card-body">
             <h5 class="card-title display-6">Le classique</h5>
             <p class="card-text">Un incontournable qui ne déçoit jamais ! Un steak juteux, accompagné de laitue croquante, de tomates fraîches et d'une tranche de cheddar fondant, le tout dans un pain moelleux. Simple, savoureux et toujours délicieux.</p>
@@ -25,10 +25,10 @@
     </div>
     <div class="card mb-3 mt-5 burger-card visible" style="max-width: 800px;">
       <div class="row g-0">
-        <div class="col-md-4">
-          <img src="./assets/images/bbq-bacon-burger-recipe.jpeg" class="img-fluid rounded-start" style="height:332.47px;object-fit: cover; object-position: 65%;" alt="...">
+        <div class="col-12 col-md-4">
+          <img src="./assets/images/bbq-bacon-burger-recipe.jpeg" class="img-fluid rounded-start" style="height:332.47px;object-fit: cover; object-position: 65%; width:100%" alt="...">
         </div>
-        <div class="col-md-8">
+        <div class="col-12 col-md-8">
           <div class="card-body">
             <h5 class="card-title display-6">Le BBQ Bacon</h5>
             <p class="card-text">Un burger généreux avec un steak juteux, du bacon croquant et une touche de sauce barbecue pour un mélange sucré-salé irrésistible.</p>
@@ -40,11 +40,11 @@
     </div>
   </div>
 
-  <div class="rowplats">
+  <div class="rowplats d-block d-md-flex">
     <div class="card mb-3 burger-card visible" style="max-width: 800px;">
       <div class="row g-0">
         <div class="col-md-4">
-          <img src="./assets/images/burger_tex-mex.jpg" class="img-fluid rounded-start" style="height:332.47px;object-fit: cover; object-position: 15%;" alt="...">
+          <img src="./assets/images/burger_tex-mex.jpg" class="img-fluid rounded-start" style="height:332.47px;object-fit: cover; object-position: 15%; width:100%" alt="...">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -58,8 +58,8 @@
     </div>
     <div class="card mb-3 burger-card visible" style="max-width: 800px;">
       <div class="row g-0">
-        <div class="col-md-4" style="overflow: hidden;">
-          <img src="./assets/images/burger-vegetarien-1-scaled-576x728-c.webp" class="img-fluid rounded-start" style="height:332.47px; object-fit: contain; object-position: 1000%; transform:scale(1.3)" alt="...">
+        <div class="col-md-4">
+        <img src="./assets/images/burger-vegetarien-1-scaled-576x728-c.webp" class="img-fluid rounded-start" style="height:332.47px;object-fit: cover; object-position: 15%; width:100%" alt="...">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -74,11 +74,11 @@
   </div>
 
 
-  <div class="rowplats">
+  <div class="rowplats d-block d-md-flex">
     <div class="card mb-3 burger-card hidden" style="max-width: 800px;">
       <div class="row g-0">
         <div class="col-md-4" style="overflow: hidden;">
-          <img src="./assets/images/burger_poulet.jpg" class="img-fluid rounded-start" style="height:332.47px;object-fit: cover; object-position: 10% 200%; transform: scale(1.3);" alt="...">
+          <img src="./assets/images/burger_poulet.jpg" class="img-fluid rounded-start" style="height:332.47px;object-fit: cover; width:100%" alt="...">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -105,10 +105,10 @@
         </div>
       </div>
     </div>
-  </div>
- 
+</div>
 
-    <div class="boutonnav">
+
+    <div class="boutonnav mt-5 mb-5">
       <button class="btn btn-primary fontbouton" id="prevbtn">PRECEDENT</button>
       <button class="btn btn-primary fontbouton" id="nextbtn" >SUIVANT</button>
     </div>

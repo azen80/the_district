@@ -118,8 +118,15 @@ h2 {
 
 .fontbouton {
     font-family: "Baloo Paaji 2";
+    justify-content: center;
+    display: flex;
 }
 
+.boutonnav {
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+}
 
 
 
@@ -127,7 +134,7 @@ h2 {
     background-color: #970747;
     color:white;
     border:none;
-    padding:20px 100px;
+    padding:20px 5%;
     border-radius: 60px;
     font-size: 20px;
 }
@@ -260,3 +267,14 @@ label[for="quantité"] {
         z-index:999;
     }
 }
+
+
+/* seulement taille portables */
+ @media (max-width: 576px) {
+    .btn {
+      padding: 20px 10%;
+        
+      
+    }
+    }
+  

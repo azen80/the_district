@@ -42,9 +42,9 @@
     </div>
   </div>
   
-  <div class="boutonnav">
-    <button class="btn btn-primary fontbouton" id="prevbtn">PRÉCÉDENT</button>
-    <button class="btn btn-primary fontbouton" id="nextbtn">SUIVANT</button>
+  <div class="boutonnav mt-5 mb-5 d-flex" style="flex-wrap: nowrap;">
+    <button class="btn btn-primary fontbouton w-sm-auto" id="prevbtn">PRÉCÉDENT</button>
+    <button class="btn btn-primary fontbouton w-sm-auto" id="nextbtn">SUIVANT</button>
   </div>
 
 
