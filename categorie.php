@@ -33,11 +33,11 @@
       </div>
       <div class="cat col-12 col-md-4 mt-5 text-center" id="boissons">
         <p>Nos boissons</p>
-        <div class="zoom-image mx-auto"><img src="./assets/images/boissons.jpg" style="object-fit:cover" alt="boisson"></div>
+        <div class="zoom-image mx-auto"><img src="./assets/images/boissons.jpg" style="object-fit:cover; width:100%; height:100%" alt="boisson"></div>
       </div>
       <div class="cat col-12 col-md-4 mt-5 text-center" id="desserts">
         <p>Nos Desserts</p>
-        <div class="zoom-image mx-auto"><img src="./assets/images/desserts.jpg" style="object-fit:cover; object-position: 20%;" alt="dessert"></div>
+        <div class="zoom-image mx-auto"><img src="./assets/images/desserts.jpg" style="object-fit:cover; object-position: 20%; width:100%; height:100%" alt="dessert"></div>
       </div>
     </div>
   </div>

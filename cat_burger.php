@@ -5,7 +5,7 @@
     </div>
 
 
-      <h1 class="titrecat mb-5 mt-5">Nos burgers</h1>
+      <h1 class="titrecat mb-5 mt-5 ms-md-5 text-center text-md-start">Nos burgers</h1>
 
   <div class="rowplats d-block d-md-flex">
     <div class="card mb-3 mt-5 burger-card visible " style="max-width: 800px;">

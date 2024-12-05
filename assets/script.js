@@ -131,15 +131,12 @@ function validateFormCommande(event) {
   }
 
 
-
-
-  if (!valid) {
-    alert("Certains champs n'ont pas été remplis.");
-  }
-
   if (valid) {
-      alert("Formulaire soumis avec succès !");
-  }
+    alert("Formulaire soumis avec succès !");
+    document.getElementById("orderForm").submit(); 
+} else {
+    alert("Certains champs n'ont pas été remplis.");
+}
 }
 
 
