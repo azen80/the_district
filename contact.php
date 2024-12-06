@@ -19,7 +19,8 @@
           </div>
           <div class="mb-3 w-100">
             <label for="surnameInput" class="form-label" style="font-family: 'Baloo Paaji 2'">Prénom</label>
-            <input type="text" id="surnameContact" class="form-control" style="width:100%">
+            <input type="text" id="surnameInputContact" class="form-control" style="width:100%">
+            <div id="surnameErrorContact" class="form-text error" style="font-family: 'Baloo Paaji 2'; color:red">Ce champ est obligatoire.</div>
           </div>
         </div>
         <div class="d-flex mb-3">

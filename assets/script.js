@@ -137,10 +137,10 @@ function validateFormCommande(event) {
 } else {
     alert("Certains champs n'ont pas été remplis.");
 }
-}
+};
 
 
-document.getElementById("orderForm").addEventListener("submit", validateFormCommande); 
+document.getElementById("orderForm").addEventListener("submit", ()=>{validateFormCommande} ); 
 
 
 
@@ -152,6 +152,7 @@ function validateFormContact(event) {
 
 
   document.getElementById("nameErrorContact").style.display = "none";
+  document.getElementById("surnameErrorContact").style.display = "none";
   document.getElementById("emailErrorContact").style.display = "none";
   document.getElementById("telephoneErrorContact").style.display = "none";
   document.getElementById("demandErrorContact").style.display = "none";
@@ -164,7 +165,13 @@ function validateFormContact(event) {
       document.getElementById("nameErrorContact").style.display = "block";
       valid = false;
   }
-
+/*
+  const name = document.getElementById("surnameInputContact").value;
+  if (!name) {
+      document.getElementById("surnameErrorContact").style.display = "block";
+      valid = false;
+  }
+*/
 
   const email = document.getElementById("emailInputContact").value;
   if (!email) {
@@ -188,16 +195,19 @@ function validateFormContact(event) {
 
 
 
-  if (!valid) {
-    alert("Certains champs n'ont pas été remplis.");
-  }
-
   if (valid) {
-      alert("Formulaire soumis avec succès !");
+    alert("Formulaire soumis avec succès !");
+  } else {
+    alert("Certains champs n'ont pas été remplis.");
   }
 }
 
-
-document.getElementById("orderFormContact").addEventListener("submit", validateFormContact); 
+/*
+const orderFormContact = document.getElementById("orderFormContact");
+if (orderFormContact) {
+  orderFormContact.addEventListener("submit", validateFormContact);
+}()=>{validateFormContact()}
+*/
+document.getElementById("orderFormContact").addEventListener("submit", () => {validateFormContact}); 
 
 
