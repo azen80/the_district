@@ -27,8 +27,12 @@
         <title>PDO - Détail</title>
     </head>
     <body>
+        <?php if ($myArtist): ?>
         Artiste N°<?php echo $myArtist->artist_id ?>
         Nom de l'artiste : <?= $myArtist->artist_name ?>
         Site Internet : <?= $myArtist->artist_url ?>
+        <?php else: ?>
+            Artiste non trouvé.
+        <?php endif; ?>
     </body>
 </html>
