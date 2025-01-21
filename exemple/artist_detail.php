@@ -32,8 +32,12 @@
         Nom de l'artiste : <?= $myArtist->artist_name ?>
         Site Internet : <?= $myArtist->artist_url ?>
         <a href="artist_form.php?id=<?= $myArtist->artist_id ?>">Modifier</a>
+        <a href="script_artist_delete.php?id=<?= $myArtist->artist_id ?>">Supprimer</a>
         <?php else: ?>
             Artiste non trouvé.
         <?php endif; ?>
+
+
+
     </body>
 </html>
