@@ -27,7 +27,7 @@
         <a href="categorie.php" style="font-size:24px">Catégorie</a>
         </li>
         <li class="nav-item">
-        <a href="plat_categorie.php" style="font-size:24px">Plats</a>
+        <a href="plats.php" style="font-size:24px">Plats</a>
         </li>
         <li class="nav-item">
         <a href="contact.php" style="font-size:24px">Contact</a>

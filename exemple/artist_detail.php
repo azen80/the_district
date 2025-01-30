@@ -37,7 +37,5 @@
             Artiste non trouvé.
         <?php endif; ?>
 
-
-
     </body>
 </html>
